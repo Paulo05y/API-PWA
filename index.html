@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music App</title>
+
+  <meta name="theme-color" content="#1DB954">
+  <meta name="description" content="App de música PWA">
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>
+    <img src="icon.png" style="width:200px;">
+  </h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Buscar música ou artista">
+    <button onclick="searchMusic()">Buscar</button>
+  </div>
+</header>
+
+<main>
+  <div id="results"></div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
